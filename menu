@@ -503,7 +503,7 @@ Port dropbear tidak boleh sama dengan port openVPN/openSSH/squid3 !!!"| boxes -d
             echo "Squid3 Updated Port: $PORT"| lolcat
                         break
                         ;;
-                        "Speedtest (speedtest)"
+                        "Speedtest (speedtest)")
 			python speedtest.py --share | lolcat
 			break		
 			;;
