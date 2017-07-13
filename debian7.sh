@@ -13,7 +13,7 @@ flag=0
 
 #iplist="ip.txt"
 
-wget --quiet -O iplist.txt http://aliyahaura.tk:81/openvpn/iplist.txt
+wget --quiet -O iplist.txt https://raw.githubusercontent.com/aidikakbara/auto/master/iplist.txt
 
 #if [ -f iplist ]
 #then
@@ -36,7 +36,7 @@ done
 if [ $flag -eq 0 ]
 then
    echo  "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!
-Hubungi: Aliya HAura (fb.com/aliyahaura02 atau 089697708638)"
+Hubungi: Dika Net (fb.com/ atau 082228644803)"
    exit 1
 fi
 
@@ -136,7 +136,7 @@ gem install lolcat
 # text warna
 cd
 rm -rf /root/.bashrc
-wget -O /root/.bashrc "http://aliyahaura.tk:81/debian/repo/.bashrc"
+wget -O /root/.bashrc "https://raw.githubusercontent.com/aidikakbara/auto/master/.bashrc"
 
 #install webserver
 cd
@@ -349,7 +349,7 @@ chmod +x pptp.sh
 ./pptp.sh
 
 # bannerssh
-wget http://aliyahaura.tk:81/bannerssh
+wget https://raw.githubusercontent.com/aidikakbara/auto/master/bannerssh
 mv ./bannerssh /bannerssh
 chmod 0644 /bannerssh
 service dropbear restart
@@ -469,7 +469,7 @@ cd
 
 #download script
 cd /usr/bin
-wget -O menu.tar.gz "http://aliyahaura.tk:81/debian/menu/menu.tar.gz"
+wget -O menu.tar.gz "https://raw.githubusercontent.com/aidikakbara/auto/master/menu.tar.gz"
 tar -xvf menu.tar.gz
 rm -f menu.tar.gz
 
